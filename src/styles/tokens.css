@@ -1,0 +1,78 @@
+/* FlashOS design tokens — themes swap only these values. */
+
+:root,
+:root[data-theme='flash'] {
+  --bg-desktop-a: #0a0e1a;
+  --bg-desktop-b: #131c33;
+  --surface: rgba(20, 26, 44, 0.72);
+  --surface-solid: #10162a;
+  --border: rgba(255, 255, 255, 0.09);
+  --text: #e8ecf6;
+  --text-dim: #8b94ad;
+  --accent: #ff6b2c;
+  --accent-glow: rgba(255, 107, 44, 0.35);
+  --success: #3ddc84;
+  --danger: #ff4d5e;
+  --radius-win: 14px;
+  --radius-ctl: 8px;
+  --shadow-win: 0 18px 50px rgba(0, 0, 0, 0.55);
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+
+  /* derived (shared across themes) */
+  --surface-raised: rgba(255, 255, 255, 0.05);
+  --surface-hover: rgba(255, 255, 255, 0.09);
+  --glass-blur: 18px;
+  --taskbar-h: 48px;
+  --titlebar-h: 40px;
+}
+
+:root[data-theme='light'] {
+  --bg-desktop-a: #e9edf5;
+  --bg-desktop-b: #cdd7ea;
+  --surface: rgba(250, 251, 255, 0.78);
+  --surface-solid: #f4f6fb;
+  --border: rgba(20, 30, 60, 0.12);
+  --text: #1b2233;
+  --text-dim: #5b6478;
+  --accent: #ff6b2c;
+  --accent-glow: rgba(255, 107, 44, 0.3);
+  --success: #1fa860;
+  --danger: #e5344a;
+  --radius-win: 14px;
+  --radius-ctl: 8px;
+  --shadow-win: 0 18px 50px rgba(30, 45, 80, 0.25);
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+
+  --surface-raised: rgba(255, 255, 255, 0.65);
+  --surface-hover: rgba(20, 30, 60, 0.07);
+  --glass-blur: 18px;
+  --taskbar-h: 48px;
+  --titlebar-h: 40px;
+}
+
+:root[data-theme='synthwave'] {
+  --bg-desktop-a: #14002e;
+  --bg-desktop-b: #2a0a4a;
+  --surface: rgba(30, 8, 56, 0.72);
+  --surface-solid: #1c0536;
+  --border: rgba(255, 46, 166, 0.22);
+  --text: #f2e9ff;
+  --text-dim: #a184c8;
+  --accent: #ff2ea6;
+  --accent-glow: rgba(255, 46, 166, 0.4);
+  --success: #2ef2c5;
+  --danger: #ff4d8f;
+  --radius-win: 14px;
+  --radius-ctl: 8px;
+  --shadow-win: 0 18px 50px rgba(10, 0, 25, 0.65);
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+
+  --surface-raised: rgba(255, 255, 255, 0.06);
+  --surface-hover: rgba(255, 46, 166, 0.14);
+  --glass-blur: 18px;
+  --taskbar-h: 48px;
+  --titlebar-h: 40px;
+}
