@@ -1,0 +1,21 @@
+{
+  "name": "flashos",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FlashOS — a complete operating system that runs in the browser. Built entirely by GLM-5.3 Flash.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:e2e": "node scripts/regression.mjs"
+  },
+  "dependencies": {
+    "idb": "^8.0.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}
